@@ -23,7 +23,7 @@ const Hero = () => {
       <div className='w-[88%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-12 h-full items-center'>
         <div className='flex flex-col '>
             <h1 className='text-white text-4xl md:text-5xl font-bold'>Hello everyone, I'm <span className='text-[#0ef]'>Gabriel Kwame Addo Quainooo</span>, </h1>
-            <p className='text-white text-2xl md:text-3xl font-medium pt-2'>A Very Passionate <TypeEffect/></p>
+            <p className='text-white text-xl md:text-3xl font-medium pt-2'>A Very Passionate <TypeEffect/></p>
             <p className='text-gray-400 text-md py-2'>
               Step into my world of digital wonder, where imaginations knows no bounds and the latest technologies meet timeless design principles, and let's collaborate to create something truly remarkable, a fusion of craetivity, innovation, and technical expertise.
             </p>
