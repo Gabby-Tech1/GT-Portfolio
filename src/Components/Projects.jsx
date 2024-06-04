@@ -17,8 +17,8 @@ const project = [
         name: 'Chat Interface',
         image: Project2,
         description: 'Coding out a UI design with react and tailwindcss',
-        github: 'https://github.com/Gabby-Tech1/Hot-Prepare-Recipe',
-        link: 'https://hot-prepare-recipe.vercel.app'
+        github: 'https://github.com/Ideation-Axis-Intern/UI-Challenge-',
+        // link: 'https://hot-prepare-recipe.vercel.app'
     },
     {
         name: 'GT Movies',
