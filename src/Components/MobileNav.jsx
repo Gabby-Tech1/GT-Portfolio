@@ -6,6 +6,8 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 const MobileNav = ({navbar, closeNavbar}) => {
 
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
     const navAnimate = navbar?'translate-x-0':'translate-y-[-100%]'
 
     const handleNavLinkClick = () => {
