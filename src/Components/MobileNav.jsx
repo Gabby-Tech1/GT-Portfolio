@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { IoIosCloseCircle } from "react-icons/io";
 import { HashLink as Link } from 'react-router-hash-link';
 
