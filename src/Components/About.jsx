@@ -3,7 +3,7 @@ import Me from '../Assets/About.jpg'
 
 const About = () => {
   return (
-    <div className='my-6 lg:my-16' id='about'>
+    <div className='my-6 mt-10 lg:my-16' id='about'>
         <h1 className='text-2xl sm:text-4xl lg:text-5xl text-white font-bold text-center'>KNOW MORE <span className='text-[#0ef]'>ABOUT ME</span> </h1>
         <div className='flex md:flex-row w-[90%] mx-auto gap-12 items-center flex-col-reverse mt-7'>
           <div className='md:my-5 my-2'>
