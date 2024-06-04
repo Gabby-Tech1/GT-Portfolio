@@ -53,7 +53,7 @@ const Projects = () => {
             {
                 project.map((item, id )=> {
                     return(
-                        <div className="card md:w-96 bg-gray-100 shadow-xl" key={id}>
+                        <div className="card md:w-96 bg-gray-100 shadow-xl hover:scale-110 duration-300 ease-linear" key={id}>
                             <figure><img src={item.image} alt="Shoes" className='h-60'/></figure>
                             <div className="card-body">
                                 <h2 className="card-title">{item.name}</h2>
