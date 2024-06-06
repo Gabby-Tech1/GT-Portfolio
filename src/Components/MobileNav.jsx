@@ -15,7 +15,7 @@ const MobileNav = ({navbar, closeNavbar}) => {
     };
 
   return (
-    <div className={`... ${isNavOpen? 'how' : 'hidden'} fixed ${navAnimate} transform transition-all duration-300 top-0 left-0 right-0 bottom-0 z-[100] bg-[#09101a]`}>
+    <div className={`fixed ${navAnimate} transform transition-all duration-300 top-0 left-0 right-0 bottom-0 z-[100] bg-[#09101a]`}>
       <div className='w-full h-full flex flex-col items-center justify-center'>
         <div className='nav-link-mobile text-bold text-white hover:text-[#0ef]'><Link to='#' onClick={handleNavLinkClick} smooth>Home</Link></div>
         <div className='nav-link-mobile text-bold text-white hover:text-[#0ef]'><Link to='#about' onClick={handleNavLinkClick} smooth>About</Link></div>
