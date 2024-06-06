@@ -18,7 +18,7 @@ const project = [
         image: Project2,
         description: 'Coding out a UI design with react and tailwindcss',
         github: 'https://github.com/Ideation-Axis-Intern/UI-Challenge-',
-        // link: 'https://hot-prepare-recipe.vercel.app'
+        link: 'https://hot-prepare-recipe.vercel.app'
     },
     {
         name: 'GT Movies',
@@ -53,7 +53,7 @@ const Projects = () => {
             {
                 project.map((item, id )=> {
                     return(
-                        <div className="card md:w-96 bg-gray-100 shadow-xl hover:scale-110 duration-300 ease-linear" key={id}>
+                        <div className="card md:w-96 bg-gray-100 shadow-xl text-black hover:scale-110 duration-300 ease-linear" key={id}>
                             <figure><img src={item.image} alt="Shoes" className='h-60'/></figure>
                             <div className="card-body">
                                 <h2 className="card-title">{item.name}</h2>

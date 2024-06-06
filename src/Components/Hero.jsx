@@ -7,11 +7,11 @@ import Pic from "../Assets/image.png"
 const Hero = () => {
     const handleCVDownload = () => {
         // Replace 'path_to_cv.pdf' with the actual path to your CV file
-        const downloadUrl = 'path_to_cv.pdf';
+        const downloadUrl = '../Assets/cv.pdf';
         // Initiate the download
         const link = document.createElement('a');
         link.href = downloadUrl;
-        link.setAttribute('download', 'your_cv.pdf');
+        link.setAttribute('download', 'cv.pdf');
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
