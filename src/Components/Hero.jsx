@@ -2,12 +2,13 @@ import React from 'react'
 import TypeEffect from './TypeEffect'
 import { FaDownload } from "react-icons/fa6";
 import Pic from "../Assets/image.png"
+import CV from '../Assets/cv.pdf'
 
 
 const Hero = () => {
     const handleCVDownload = () => {
         // Replace 'path_to_cv.pdf' with the actual path to your CV file
-        const downloadUrl = '../Assets/cv.pdf';
+      const downloadUrl = {CV};
         // Initiate the download
         const link = document.createElement('a');
         link.href = downloadUrl;
